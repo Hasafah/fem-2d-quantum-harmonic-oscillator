@@ -11,7 +11,7 @@ Python implementation of the finite element method (FEM) for a two-dimensional q
 The stationary Schrödinger equation is solved in a square domain with zero Dirichlet boundary conditions:
 
 $$
-\hat{H} = -\frac{\hbar^2}{2m^*}\left(\frac{\partial^2}{\partial x^2}+\frac{\partial^2}{\partial y^2}\right) + \frac{m^{\ast}omega^2}{2}(x^2+y^2).
+\hat{H} = -\frac{\hbar^2}{2m^*}\left(\frac{\partial^2}{\partial x^2}+\frac{\partial^2}{\partial y^2}\right) + \frac{m^{\ast}\omega^2}{2}(x^2+y^2).
 $$
 
 The effective mass is $m^*=0.067m_e$ and $\hbar\omega=10\,\mathrm{meV}$. The infinite-domain theoretical ground-state energy is therefore $E_0=10\,\mathrm{meV}$.
