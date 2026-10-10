@@ -1,6 +1,6 @@
 # 2D Quantum Harmonic Oscillator - Finite Element Method
 
-Python implementation of the finite element method (FEM) for a two-dimensional quantum harmonic oscillator. The project calculates energy levels and eigenstates, studies the influence of mesh density and domain size, and simulates wavefunction evolution with the Crank–Nicolson method.
+Python implementation of the finite element method (FEM) for a two-dimensional quantum harmonic oscillator. The project calculates energy levels and eigenstates, studies the influence of mesh density and domain size, and simulates wavefunction evolution with the Crank-Nicolson method.
 
 [Open the notebook](MES.ipynb) · [Read the report (PDF, Polish)](docs/MES_Results_and_discussion.pdf) · [Dataset documentation](data/README.md)
 
@@ -22,7 +22,7 @@ The implementation uses:
 - Local overlap, kinetic-energy and potential-energy matrices, assembled into global matrices.
 - The generalized eigenvalue problem $Hc=ESc$, solved with `scipy.linalg.eigh`.
 - A scan over $N\in\{2,4,6\}$ and $L=40,41,\ldots,99\,\mathrm{nm}$.
-- Crank–Nicolson propagation of a normalized superposition of the ground state and first excited state, with wavefunction snapshots and the position expectation value $\langle x(t)\rangle$.
+- Crank-Nicolson propagation of a normalized superposition of the ground state and first excited state, with wavefunction snapshots and the position expectation value $\langle x(t)\rangle$.
 
 Here, $L$ is the side length of the square. There are $2N$ elements per side, $4N^2$ elements in total, and $(4N+1)^2$ global nodes.
 
