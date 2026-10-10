@@ -1,4 +1,4 @@
-# 2D Quantum Harmonic Oscillator — Finite Element Method
+# 2D Quantum Harmonic Oscillator - Finite Element Method
 
 Python implementation of the finite element method (FEM) for a two-dimensional quantum harmonic oscillator. The project calculates energy levels and eigenstates, studies the influence of mesh density and domain size, and simulates wavefunction evolution with the Crank–Nicolson method.
 
