@@ -4,7 +4,7 @@ Python implementation of the finite element method (FEM) for a two-dimensional q
 
 [Open the notebook](MES.ipynb) · [Read the report (PDF, Polish)](docs/MES_Results_and_discussion.pdf) · [Dataset documentation](data/README.md)
 
-![Ground-state energy versus domain size for three FEM meshes](docs/images/energy-convergence.png)
+![Ground-state energy versus domain size for three FEM meshes](docs/images/energy-convergence.svg)
 
 ## Physical model
 
