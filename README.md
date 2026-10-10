@@ -38,11 +38,11 @@ The following values come from the saved notebook outputs. The PDF report gives 
 
 The notebook selects $N=4$, $L=69\,\mathrm{nm}$ for the subsequent calculations as a compromise between accuracy and computational cost. Its ground-state energy differs from the infinite-domain result by approximately 0.126%.
 
-![Ground-state wavefunction for N = 4 and L = 69 nm](docs/images/ground-state.png)
+![Ground-state wavefunction for N = 4 and L = 69 nm](docs/images/ground-state.svg)
 
 The time-dependent calculation uses a step of 100 atomic units of time and follows approximately one oscillation period.
 
-![Position expectation value during wavefunction evolution](docs/images/position-expectation.png)
+![Position expectation value during wavefunction evolution](docs/images/position-expectation.svg)
 
 These three preview images were extracted from the supplied notebook's saved outputs; they do not represent a new verification run.
 
@@ -95,6 +95,6 @@ The published copy adds a short introductory cell, removes unused imports, and d
 
 ## Author and license
 
-**Marcin Drąg** — academic computational physics project, AGH University of Krakow, Faculty of Physics and Applied Computer Science.
+**Marcin Drąg** - academic computational physics project, AGH University of Krakow, Faculty of Physics and Applied Computer Science.
 
 Original code, numerical data and project documentation are available under the [MIT License](LICENSE). Institutional logos and any other third-party material in the report retain their respective rights.
